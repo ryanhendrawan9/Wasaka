@@ -48,6 +48,7 @@ h2 {
   padding: 0 10%;
 }
 
+
 /* ============ section 2 */
 section.section2 {
   height: 250vh;
@@ -122,61 +123,4 @@ section.section2 {
 .gmap_iframe {
   width: 600px !important;
   height: 400px !important;
-}
-
-@media (max-width: 768px) {
-  .wrapper, .bySide {
-      flex-direction: column;
-      gap: 20px;
-  }
-
-  .layer h1 {
-      font-size: 6em;
-  }
-
-  .layer h2 {
-      font-size: 1.5em;
-  }
-
-  .show {
-      grid-template-columns: 1fr;
-  }
-
-  img.gambar{
-    height: 140px;
-  }
-
-  .form-group input, 
-  .form-group textarea {
-      font-size: 14px;
-  }
-
-  .form-group button {
-      font-size: 14px;
-      padding: 8px 16px;
-  }
-}
-
-
-@media (max-width: 480px) {
-  .layer h1 {
-      font-size: 4em;
-  }
-
-  .layer h2 {
-      font-size: 1.2em;
-  }
-  .image.gambar{
-    height: 100px;
-  }
-
-  .form-group input, 
-  .form-group textarea {
-      font-size: 12px;
-  }
-
-  .form-group button {
-      font-size: 12px;
-      padding: 6px 12px;
-  }
 }
